@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Redressed&display=swap');
+
+*{
+    font-family: 'Bebas Neue', cursive;
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+}
+
+.logo{
+    color:rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.navbar .logo a span{
+    color: rgb(104, 104, 104);
+}
+
+
+header{
+    background-color: rgb(255, 255, 255);
+    height: 10vh;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.navbar a{
+    margin-left: 3rem;
+
+}
+
+.navbar .logo a{
+    color:rgb(0, 0, 0);
+    font-size: 35px;
+    font-weight: 500;
+}
+
+
+.menu{
+    list-style: none;
+    display: flex;
+}
+
+.menu a{
+    color: black;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    height: 30vh;
+    display: grid;
+    grid-column: 1fr 1fr;
+    justify-content: center;
+
+}
+
+.perfil{
+    background-color: rgb(255, 255, 255);
+    grid-column-start: 1;
+
+}
+
+.perfil span{
+    color: rgb(104, 104, 104);
+
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    margin-top: 50%;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    margin-top: 2%;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+.photo-perfil{
+    background-color: rgb(255, 255, 255);
+    grid-column-start: 2;
+    width: 90%;
+    margin-top: -2%;
+    margin-left: 20%;
+}
+
+.photo-perfil img{
+    border-radius: 50%;
+}
+
+
+footer{
+    background-color: rgb(0, 0, 0);
+    height: 120vh;
+    margin-top: 50vh;
+    display: grid;
+    color: rgb(104, 104, 104);
+}
+
+.certificado{
+    display: grid;
+    margin-top: 5%;
+}
+
+footer h2 {
+    margin-bottom: 2%;
+}
+
+.perfil a{
+    background-color: black;
+    border-radius: 6%;
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    position: absolute;
+}
+
+.modal {
+    position: fixed;
+    top: 25%;
+    right: 25%;
+    bottom: 25%;
+    left: 25%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6%;
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+  }
+
+  .modal:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .modal > div {
+    width: 400px;
+    position: relative;
+    margin: 10% auto;
+    padding: 15px 20px;
+    background: #fff;
+  }
+
+  .fechar {
+    position: absolute;
+    width: 30px;
+    right: -15px;
+    top: -20px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+    background: #ff4545;
+    border-radius: 50%;
+    font-size: 16px;
+    color: #8d0000;
+  }
+
